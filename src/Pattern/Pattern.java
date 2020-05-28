@@ -1,4 +1,4 @@
-package PracticeProblem.Pattern;
+package Pattern;
 
 public class Pattern {
 	public static void main(String[] args) {

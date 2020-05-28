@@ -1,4 +1,4 @@
-package PracticeProblem.Pattern;
+package Pattern;
 
 import java.util.Scanner;
 

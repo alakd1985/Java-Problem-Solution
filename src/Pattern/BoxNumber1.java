@@ -1,4 +1,4 @@
-package PracticeProblem.Pattern;
+package Pattern;
 
 public class BoxNumber1 {
 
