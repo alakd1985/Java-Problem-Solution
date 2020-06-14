@@ -1,6 +1,6 @@
 package pattern;
 
-public class BoxNumber1 {
+public class boxNumber1 {
 
 	public static void main(String[] args) {
 		char i, j;

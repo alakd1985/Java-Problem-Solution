@@ -2,7 +2,7 @@ package pattern;
 
 import java.util.Scanner;
 
-public class BoxNumber {
+public class boxNumber {
 	public static void main(String[] args) {
 
 		/*

@@ -2,32 +2,24 @@ package pattern;
 
 import java.util.Scanner;
 
-/*       ?
-	    ??
-	   ???
-	  ????
-	 ?????*/
-	
-public class StairCase {
+/* 				1
+				2 6
+				3 7 10 
+				4 8 11 13
+				5 9 12 14 15*/
+public class pattern2 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the number of rows::  ");
 		int row = input.nextInt();
-		
-		for (int i = 1; i <= row; i++) 
-		{
-			for (int j = row; j >=i; j--) 
-			{
-				System.out.print(" ");
-			}
-			
-			for (int k = 1; k <=i; k++)
-			{
-				System.out.print("?");
+		for (int i = 1; i <= row; i++) {
+			int num = i;
+			for (int j = 1; j <= i; j++) {
+				System.out.print(num + "");
+				num = num + row - j;
 			}
 			System.out.println();
-			
 		}
 
 	}

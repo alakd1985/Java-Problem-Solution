@@ -2,7 +2,22 @@ package pattern;
 
 import java.util.Scanner;
 
-public class RightHalfDiamond {
+
+
+				/*1
+				1 2
+				1 2 3
+				1 2 3 4
+				1 2 3 4 5
+				1 2 3 4 5 6 7
+				1 2 3 4 5 6
+				1 2 3 4 5
+				1 2 3 4
+				1 2 3
+				1 2
+				1*/
+
+public class righthalfDiamond {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

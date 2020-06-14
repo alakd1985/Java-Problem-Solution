@@ -2,7 +2,7 @@ package pattern;
 
 import java.util.Scanner;
 
-public class LeftHalfDiamond {
+public class lefthalfDiamond {
 
 	public static void main(String[] args) 
 	{

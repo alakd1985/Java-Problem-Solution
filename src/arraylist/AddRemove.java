@@ -6,6 +6,7 @@ import java.util.Collections;
 public class AddRemove {
 
 	public static void main(String[] args) {
+		
 		ArrayList<String> arr = new ArrayList<String>();
 		arr.add("alak");
 		arr.add("dutta");
