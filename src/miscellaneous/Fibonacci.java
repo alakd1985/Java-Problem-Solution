@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-	//  reference https://www.youtube.com/watch?v=vwjhT_OTp1w&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&index=11
+	// reference
+	// https://www.youtube.com/watch?v=vwjhT_OTp1w&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&index=11
 	public static void main(String[] args) {
 		int n1 = 0;
 		int n2 = 1;

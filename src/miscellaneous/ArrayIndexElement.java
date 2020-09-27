@@ -11,10 +11,6 @@ public class ArrayIndexElement {
 
 		int len = arr.length;
 		int indexStart = 0;
-//		if (arr == null) {
-//			return -1;
-//		}
-
 		while (indexStart < len) {
 			if (arr[indexStart] == NumberInsideArray) {
 				return indexStart;

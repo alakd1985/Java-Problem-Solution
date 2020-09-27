@@ -7,12 +7,11 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 
-
 public class DuplicateElement {
 
 	public static void main(String[] args) {
 		String[] dupStrings = { "java", "javascript", "javadoc", "javascript", "java" };
-		// 1. compare each element this is not the good solution; use 
+		// 1. compare each element is not the good solution; use 
 		// i or j = index of the array
 		for (int i = 0; i < dupStrings.length; i++) {
 			for (int j = i + 1; j < dupStrings.length; j++) {
