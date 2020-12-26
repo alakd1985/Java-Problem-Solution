@@ -1,9 +1,13 @@
 package miscellaneous;
 
+import java.util.Scanner;
+
 public class ArrayIndexElement {
 
 	public static void main(String[] args) {
 		int[] myNumber = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+		
+
 		System.out.println("The index of the array is :" + contains(myNumber, 15));
 	}
 

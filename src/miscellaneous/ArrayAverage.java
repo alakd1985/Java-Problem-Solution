@@ -10,11 +10,13 @@ public class ArrayAverage {
 		int length = s.nextInt();
 		int[] myArray = new int[length];
 		System.out.println("Enter the elements of the array:");
-		for(int i=0; i<length; i++ ) {
-	         myArray[i] = s.nextInt();
-	      }
+
+		for (int i = 0; i < length; i++) {
+			myArray[i] = s.nextInt();
+		}
+
 		int sum = 0;
-		
+
 		for (int i : myArray) {
 			sum = sum + i;
 		}
