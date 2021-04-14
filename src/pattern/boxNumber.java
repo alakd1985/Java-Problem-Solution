@@ -6,9 +6,7 @@ public class boxNumber {
 	public static void main(String[] args) {
 
 		/*
-		 * 111 
-		 * 222 
-		 * 333
+		 * 111 222 333
 		 */
 
 		Scanner input = new Scanner(System.in);
@@ -42,12 +40,7 @@ public class boxNumber {
 		}
 
 		/*
-	
-		 * ****
-		 * ****
-		 * ****
-		 * ****
-		 * ****
+		 * **** **** **** **** ****
 		 */
 
 		for (int i = 1; i <= row; i++) {

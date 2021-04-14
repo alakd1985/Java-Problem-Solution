@@ -1,7 +1,9 @@
 package pattern;
 
 public class boxNumber1 {
-
+	/*
+	 * AAAAA BBBBB CCCCC DDDDD EEEEE
+	 */
 	public static void main(String[] args) {
 		char i, j;
 
@@ -11,7 +13,6 @@ public class boxNumber1 {
 			}
 			System.out.println("");
 		}
-		
 
 	}
 

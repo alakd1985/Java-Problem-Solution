@@ -2,20 +2,18 @@ package pattern;
 
 import java.util.Scanner;
 
-
-
-				/*1
-				1 2
-				1 2 3
-				1 2 3 4
-				1 2 3 4 5
-				1 2 3 4 5 6 7
-				1 2 3 4 5 6
-				1 2 3 4 5
-				1 2 3 4
-				1 2 3
-				1 2
-				1*/
+/*1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6 7
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1*/
 
 public class righthalfDiamond {
 
@@ -23,24 +21,19 @@ public class righthalfDiamond {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the number of rows::  ");
 		int row = input.nextInt();
-		
-		for (int i = 1; i <=row; i++) {
-			for (int j = 1; j <=i; j++) {
-				System.out.print("*");
-			}
-			System.out.println("");
-		}
-		
-		for (int i = 1; i <=row; i++) {
-			for (int j = row-1; j >=i; j--) {
-				System.out.print("*");
-			}
-			System.out.println("");
-			
-		}
-		
-		
 
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+
+		for (int i = 1; i <= row; i++) {
+			for (int j = row - 1; j >= i; j--) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
 	}
-
 }

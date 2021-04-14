@@ -1,11 +1,11 @@
 package pattern;
 
-					  /*1
-						10
-						101
-						1010
-						10101
-						101010*/
+/*1
+10
+101
+1010
+10101
+101010*/
 import java.util.Scanner;
 
 public class pattern5 {
@@ -24,9 +24,6 @@ public class pattern5 {
 				}
 			}
 			System.out.println();
-
 		}
-
 	}
-
 }
