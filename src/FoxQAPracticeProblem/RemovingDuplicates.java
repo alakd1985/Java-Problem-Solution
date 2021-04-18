@@ -1,5 +1,4 @@
 package FoxQAPracticeProblem;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -17,7 +16,7 @@ public class RemovingDuplicates {
 			System.out.println("Enter the " + i + "th" + " Number ");
 			x[i] = scanner.nextInt();
 		}
-// Hashset doesn't accept the duplicate values
+
 		Set<Integer> s = new HashSet<Integer>();
 
 		for (int i = 0; i < x.length; i++) {

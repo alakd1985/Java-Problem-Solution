@@ -3,7 +3,7 @@ package FoxQAPracticeProblem;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LeftRotateByOneElement {
+public class SumClosetoZero {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -15,14 +15,23 @@ public class LeftRotateByOneElement {
 			System.out.println("Enter the " + (i + 1) + " number: ");
 			a[i] = scanner.nextInt();
 		}
-		System.out.println("The elements are: " + Arrays.toString(a));
+		System.out.println("The array is:: " + Arrays.toString(a));
 
-		int first = a[0];
+		int minimumSum = a[0] + a[1];
+		int originalSum = 0;
+		int min1 = 0, min2 = 1;
 		for (int i = 0; i < a.length - 1; i++) {
-			a[i] = a[i + 1];
+			for (int j = i + 1; j < a.length - 1; j++) {
+				if (originalSum < minimumSum) {
+					min1 = i;
+					min2 = j;
+					minimumSum = originalSum;
+				}
+			}
 		}
-		a[a.length - 1] = first;
-		System.out.println("After the rotation ::" + Arrays.toString(a));
+
+		System.out.println("The firt minimum number is :: " + a[min1]);
+		System.out.println("The second minimum number is :: " + a[min2]);
 	}
 
 }
