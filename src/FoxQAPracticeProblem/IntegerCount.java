@@ -20,7 +20,5 @@ public class IntegerCount {
 			}
 		}
 		System.out.println("Total count is :: " + count);
-
 	}
-
 }
