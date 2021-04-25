@@ -1,5 +1,6 @@
 package javaPracticeProblem;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SearchMatrix {
@@ -12,6 +13,7 @@ public class SearchMatrix {
 				array1[i][j] = input1.nextInt();
 			}
 		}
+		System.out.println(Arrays.deepToString(array1));
 		System.out.println("Please enter the number to search::");
 		int num = input1.nextInt();
 		int count = 0;
