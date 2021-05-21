@@ -1,4 +1,4 @@
-package javaPracticeProblem;
+package stringRelatedProblem;
 
 public class RightRotateStringBythreeElement {
 
