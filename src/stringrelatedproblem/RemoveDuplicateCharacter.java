@@ -1,4 +1,4 @@
-package stringRelatedProblem;
+package stringrelatedproblem;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

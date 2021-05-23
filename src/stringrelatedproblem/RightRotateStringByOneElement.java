@@ -1,4 +1,4 @@
-package stringRelatedProblem;
+package stringrelatedproblem;
 
 public class RightRotateStringByOneElement {
 
